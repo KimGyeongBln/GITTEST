@@ -46,7 +46,25 @@ git log # 로그 확인
 git remote add oriein https://github.com/KimGyeongBln/GITTEST.git
 # git remota add 저장소 이름 저장소 주소
 ```
+- push
+```bash
+git push -u oriein master # 첫 번째 푸시
+git push # 기본 원격지 현재 브랜치를 푸시
+```
 
+### From GitHub to Local Git
+- 복제할 원격 저장소 주소 확보
+- 복제
+```bash
+git clone https://github.com/KimGyeongBln/GITTEST.git
+# git clone 원격지 주소
+```
+
+- 저장소 설정
+
+- 원격지 변경사항 fetch (확인)
+
+- 원격지 변경사항 pull (내려받기)
 
 
 
